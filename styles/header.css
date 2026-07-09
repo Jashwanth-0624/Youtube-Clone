@@ -1,0 +1,182 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 221, 221);
+    z-index: 100;
+
+}
+
+.ls{
+    width: 150px;
+    align-items: center;
+    display: flex;
+}
+.menu{
+    height: 23px;
+    margin-left: 24px;
+}
+.menu:hover{
+    cursor:pointer;
+}
+.logo{
+    height: 20px;
+    margin-left: 25px;
+}
+
+
+.ms{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+.sb{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    max-width: 300px;
+    font-size: 16px;
+    display: flex;
+    flex: 1;
+    box-shadow: inset 1px 2px 2px rgba(0, 0, 0, 0.05);
+    width: 0;
+}
+
+.sb::placeholder{
+    font-family: Roboto, Arial;
+    font-size: 16px;
+
+}
+
+.slogo{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(240, 240, 240);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    cursor: pointer;
+    margin-left: -1px;
+
+    margin-right: 10px;
+    
+
+}
+.slogo .tooltip, .vlogo .tooltip, .upload .tooltip, .app .tooltip, .notifications .tooltip{
+    position: absolute;
+    background-color: grey;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -35px;
+    font-family: roboto, arial;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.2s;
+    white-space: nowrap;
+}
+
+.slogo:hover .tooltip, .vlogo:hover .tooltip, .upload:hover .tooltip, .app:hover .tooltip, .notifications:hover .tooltip{
+    opacity: 1;
+    
+}
+
+.slogo, .vlogo, .upload, .app, .notifications{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.search-icon{
+    height: 25px;
+
+}
+.slogo:hover{
+    background-color: rgb(232, 228, 228);
+}
+
+
+.vlogo{
+    height: 40px;
+    width: 40px;    
+    background-color: rgb(249, 247, 247);
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+
+    
+}
+.voice-icon{
+    height: 25px;
+    margin-right: 1px;
+    
+}
+
+
+
+.rs{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    
+    
+    
+}
+.create{
+    height: 25px;
+    cursor: pointer;
+    
+}
+.apps{
+    height: 25px;  
+    margin-left: 25px;
+    cursor: pointer;
+}
+.notif{
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.notif-count{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: -2px;
+    right: 22px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+

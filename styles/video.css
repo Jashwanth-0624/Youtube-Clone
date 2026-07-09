@@ -1,0 +1,99 @@
+
+
+.thbn {
+    width: 100%;
+    cursor: pointer;
+    
+    
+
+}
+
+.vt{
+    margin-top: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    
+    
+    
+}
+
+
+
+.vig{ 
+        display: grid;
+    grid-template-columns: 50px 1fr;
+
+
+}
+
+.pfp{
+    
+    width: 35px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    
+}
+.tbhnr{
+    margin-bottom: 8px;
+    position: relative;
+}
+.vtime{
+    font-family: Roboto, arial;
+    font-size: 12px;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.va{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 5px;
+    cursor: pointer;
+    
+
+
+}
+.vs{
+    font-size: 12px;
+    color: grey;
+    margin-top: 0px;
+}
+
+.vg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+@media (max-width: 870px){
+    .vg {
+         grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width: 871px) and (max-width: 1124px){
+    .vg {
+         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media (min-width: 1125px){
+    .vg {
+         grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+            
+            
