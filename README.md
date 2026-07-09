@@ -37,6 +37,4 @@ Building a complex interface like YouTube requires a strong grasp of foundationa
 
 ## Thank You!
 
-Thank you so much for taking the time to check out this project! Building this was an amazing way to sharpen my styling and layout workflows. 
-
-*If you found this project interesting or helpful, giving this repository a star ⭐ would be highly appreciated!*
+Thank you so much for taking the time to check out this project!
