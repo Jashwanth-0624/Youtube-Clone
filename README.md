@@ -5,6 +5,7 @@
 Thank you for stopping by! This project is a front-end pixel-perfect clone of the YouTube desktop homepage layout. 
 
 I built this project completely **from scratch** to test, challenge, and showcase my core front-end development skills. It serves as a visual and structural demonstration of my mastery over semantic layouts, advanced CSS architectures, and responsive styling principles.
+
 👉 **Live Demo: https://jashwanth-0624.github.io/Youtube-Clone/**
 
 ---
