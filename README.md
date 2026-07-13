@@ -8,6 +8,8 @@ I built this project completely **from scratch** to test, challenge, and showcas
 
 👉 **Live Demo: https://jashwanth-0624.github.io/Youtube-Clone/**
 
+**⚠️ Important Note:** Since this project closely replicates Amazon's interface, **Google Safe Browsing** may occasionally flag the GitHub Pages site as a potential phishing page. This is a common false positive for educational clone projects. If you encounter the warning, click **Details** and then click the underlined **"visit this unsafe site"** option to continue to the demo.
+
 ---
 
 ## 💡 Concepts Practiced & Demonstrated
