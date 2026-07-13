@@ -6,9 +6,7 @@ Thank you for stopping by! This project is a front-end pixel-perfect clone of th
 
 I built this project completely **from scratch** to test, challenge, and showcase my core front-end development skills. It serves as a visual and structural demonstration of my mastery over semantic layouts, advanced CSS architectures, and responsive styling principles.
 
-👉 **Live Demo: https://youtube-clone-alpha-ashy-13.vercel.app/
-
-**⚠️ Important Note:** Since this project closely replicates Amazon's interface, **Google Safe Browsing** may occasionally flag the GitHub Pages site as a potential phishing page. This is a common false positive for educational clone projects. If you encounter the warning, click **Details** and then click the underlined **"visit this unsafe site"** option to continue to the demo.
+👉 **Live Demo:** https://youtube-clone-alpha-ashy-13.vercel.app/
 
 ---
 
